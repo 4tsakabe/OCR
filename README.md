@@ -1,6 +1,10 @@
-# Screenshot Text Extractor (macOS Monterey対応)
+# Screenshot Text Extractor (for macOS Monterey)
 
-macOS Montereyでは、日本語のOCR機能が限定的であるため、このPythonスクリプトが役立ちます。Google Cloud Vision APIを使用して、スクリーンショット内のテキストを検出し、抽出したテキストをクリップボードにコピーできます。画像からのテキストや画面上のアクセス困難なテキスト領域から素早くテキストをコピーするのに便利なツールです。
+macOS Montereyでは、OCR機能にて日本語がサポート対象外であるため、このPythonスクリプトが役立ちます。Google Cloud Vision APIを使用して、スクリーンショット内のテキストを検出し、抽出したテキストをクリップボードにコピーできます。画像からのテキストや画面上のアクセス困難なテキスト領域から素早くテキストをコピーするのに便利なツールです。
+
+※Google Cloud Vision APIの登録が必要です。(月1000回まで無料)
+
+※VenturaであればOCR機能に日本語が追加されています。[TRex](https://github.com/amebalabs/TRex)がおすすめです。
 
 This Python script allows you to capture a screenshot, detect text within the screenshot using Google Cloud Vision API, and copy the extracted text to your clipboard. It is a convenient tool to quickly copy text from images or inaccessible text regions on your screen.
 
