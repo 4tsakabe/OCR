@@ -6,6 +6,7 @@ macOS Montereyでは、OCR機能にて日本語がサポート対象外である
 ※Google Cloud Vision APIの登録が必要です。(月1000回まで無料)
 
 ※VenturaであればOCR機能に日本語が追加されています。[TRex](https://github.com/amebalabs/TRex)がおすすめです。
+※TRex使ってみたけど日本語が中国の文字が入っていたりしそうなので、VisionAPIの方が綺麗な結果っぽいのでVenturaでも使える
 
 <img src="https://user-images.githubusercontent.com/61626658/226303592-0a1fdafe-2eaf-4547-a365-68d40ddb1fb6.gif" width="300">
 
